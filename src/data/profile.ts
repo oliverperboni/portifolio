@@ -1,0 +1,57 @@
+export const profile = {
+  name: "Oliver Oliveira",
+  title: "Full Stack Developer",
+  location: "Lisbon, Portugal",
+  email: "oliverperboni@gmail.com",
+  linkedin: "https://www.linkedin.com/in/oliver-perboni-78b8b3224",
+  linkedinLabel: "oliver-perboni",
+  tagline: "Full Stack Developer at Volkswagen Digital Solutions, working across the stack from Angular/React frontends to Node.js and Spring Boot backends, containerised with Docker and Kubernetes. I take on complex problems, ask the right questions, and bring genuine curiosity to every project. Always building something on the side.",
+  experience: [
+    {
+      role: "Full Stack Developer",
+      company: "Volkswagen Digital Solutions",
+      period: "September 2024 — Present",
+      location: "Lisbon, Portugal",
+      highlights: [
+        "Integrated a third-party chat system into a fleet management platform, enabling fleet managers to schedule vehicle repairs directly with workshops",
+        "Enhanced the fleet charging module, improving how fleet managers handle EV charging across their fleet",
+        "Set up a demo environment on Kubernetes including full database seeding pipelines and user account management",
+        "Built an AG Grid implementation from scratch, navigating unfamiliar technology independently",
+        "Built an internal dad joke generator for daily stand-ups",
+        "Worked as a full stack developer on a Volkswagen Group platform providing public EV charging access to drivers and fleet management tooling for company car managers",
+        "Contributed to both frontend and backend development, using Angular and React for the frontend and Node.js and Spring Boot for the backend",
+      ],
+    },
+    {
+      role: "Full Stack Developer (Personal Project)",
+      company: "Independent — Music Management System",
+      period: "May 2023 — May 2024",
+      location: "Lisbon, Portugal",
+      highlights: [
+        "Designed and built a full-stack music management system integrated with a meeting scheduling platform, allowing users to register and manage session bookings",
+        "Self-hosted the entire application on a VPS, managing infrastructure, deployment pipelines, and server configuration end-to-end",
+        "Used Docker to containerise services and wrote custom deploy scripts to streamline and automate the deployment process",
+        "Integrated MinIO as a self-hosted S3-compatible object storage solution for file and asset management",
+        "Configured Cloudflare for DNS management, improving reliability and security of the hosted application",
+        "Explored and applied new patterns in API design, authentication, and user management",
+      ],
+    },
+  ],
+  education: {
+    degree: "BSc in Computer Science",
+    institution: "ISCTE — Instituto Universitário de Lisboa",
+    period: "2021 — 2024",
+  },
+  skills: {
+    languages: ["Java", "TypeScript", "JavaScript", "Bash"],
+    frontend: ["Angular", "React"],
+    backend: ["Spring Boot", "Node.js", "Express"],
+    testing: ["Cypress"],
+    infrastructure: ["Docker", "Kubernetes", "Cloudflare", "Caddy"],
+  },
+  certifications: [
+    "SAP Fundamentals",
+    "SAP ABAP for SAP HANA 2.0",
+  ],
+  languages: ["English (Professional)", "Portuguese (Native)"],
+};
